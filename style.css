@@ -1,0 +1,133 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #38ada9;
+    background-attachment: fixed;
+}
+.header-logo img{
+    width: 201px;
+    height: auto;
+}
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 30px;
+	line-height: 67px;
+	font-size: 20px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+}
+.primary-menu ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+.primary-menu ul li a:hover{
+    background-color: #079992;
+}
+
+.banner{
+    background: url(https://media.istockphoto.com/photos/dangerous-hooded-hacker-breaks-into-government-data-servers-and-a-picture-id817486228?k=6&m=817486228&s=612x612&w=0&h=pZd6esBWGq7TVUuUhLyJziNnhK9UPRhOO2cpU7JDTMg=) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.banner h3{
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px 20px;
+    background-color: #323d49a6;
+    display: inline-block;
+    border-radius: 10px;
+}
+.banner h2{
+    font-size: 30px;
+    color: #ddd;
+    padding: 10px 20px;
+    background-color: #3498db83;
+    max-width: 361px;
+    margin: auto;
+    border-radius: 10px;
+}
+.about{
+    background-color: #ecf0f1;
+}
+.service{
+    background: #f9f9f9;
+}
+.service-item{
+    padding-top: 20px;
+}
+.service-item span {
+	font-size: 40px;
+	display: block;
+	height: 60px;
+	width: 60px;
+	background-color: #38ada9;
+	color: #fff;
+	margin: auto;
+	line-height: 60px;
+	border-radius: 20px 0;
+    
+}
+
+img{
+    max-width: 100%;
+}
+.prodact-right h2{
+    font-size: 35px;
+}
+.prodact-right ul{
+    padding-left: 0;
+    list-style: none;
+}
+.prodact-right ul li{
+    background: #f6f6f6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.foter{
+    background: #2c3c50;
+}
+.foter p{
+    margin-bottom: 0;
+}
+/* .foter a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+} */
+
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+}
+.footer-right ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.social-menu li a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
